@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="82" id="KGk-i7-Jjw" customClass="HEAddressBookCell" customModule="HEnterprise" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="410" height="82"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="410" height="81.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="timg" translatesAutoresizingMaskIntoConstraints="NO" id="qZ1-G2-e0H">
+                        <rect key="frame" x="10" y="11" width="60" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="60" id="Dnn-XX-pYq"/>
+                            <constraint firstAttribute="width" constant="60" id="VdD-mJ-LjN"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="张三" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y98-oE-O9f">
+                        <rect key="frame" x="91" y="11" width="243" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="18635159900" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gEe-z3-zDS">
+                        <rect key="frame" x="91" y="53" width="243" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="call_phone" translatesAutoresizingMaskIntoConstraints="NO" id="TxV-sf-cZ0">
+                        <rect key="frame" x="355" y="19" width="45" height="45"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="45" id="bQG-VN-rsf"/>
+                            <constraint firstAttribute="width" constant="45" id="dQN-sp-ixA"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="gEe-z3-zDS" firstAttribute="leading" secondItem="qZ1-G2-e0H" secondAttribute="trailing" constant="21" id="7PX-E6-FVZ"/>
+                    <constraint firstItem="TxV-sf-cZ0" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="MU8-w1-YHd"/>
+                    <constraint firstItem="TxV-sf-cZ0" firstAttribute="leading" secondItem="y98-oE-O9f" secondAttribute="trailing" constant="21" id="Nbb-hl-WxR"/>
+                    <constraint firstItem="qZ1-G2-e0H" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="VUH-RX-H62"/>
+                    <constraint firstItem="y98-oE-O9f" firstAttribute="top" secondItem="qZ1-G2-e0H" secondAttribute="top" id="WOQ-eX-36l"/>
+                    <constraint firstItem="qZ1-G2-e0H" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="efH-Pe-beb"/>
+                    <constraint firstItem="TxV-sf-cZ0" firstAttribute="leading" secondItem="gEe-z3-zDS" secondAttribute="trailing" constant="21" id="f7t-5P-HVm"/>
+                    <constraint firstItem="gEe-z3-zDS" firstAttribute="bottom" secondItem="qZ1-G2-e0H" secondAttribute="bottom" id="kc5-UG-U88"/>
+                    <constraint firstItem="y98-oE-O9f" firstAttribute="leading" secondItem="qZ1-G2-e0H" secondAttribute="trailing" constant="21" id="ouQ-ks-Fdq"/>
+                    <constraint firstItem="TxV-sf-cZ0" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" constant="10" id="sTq-zY-Zdf"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="iv_call_phone" destination="TxV-sf-cZ0" id="SeN-Sk-EVH"/>
+                <outlet property="iv_contact_header" destination="qZ1-G2-e0H" id="hOn-DV-77K"/>
+                <outlet property="lab_contact_name" destination="y98-oE-O9f" id="5Kk-iS-g2C"/>
+                <outlet property="lab_contact_phone" destination="gEe-z3-zDS" id="biC-GY-VON"/>
+            </connections>
+            <point key="canvasLocation" x="79" y="73"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="call_phone" width="18" height="20"/>
+        <image name="timg" width="211" height="211"/>
+    </resources>
+</document>

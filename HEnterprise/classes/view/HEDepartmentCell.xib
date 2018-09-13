@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="66" id="KGk-i7-Jjw" customClass="HEDepartmentCell" customModule="HEnterprise" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="423" height="66"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="423" height="65.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="timg" translatesAutoresizingMaskIntoConstraints="NO" id="qoD-f1-2Gf">
+                        <rect key="frame" x="10" y="12" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="ZuJ-bT-7PX"/>
+                            <constraint firstAttribute="height" constant="40" id="bTy-0u-1tf"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="信息科" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nSb-uT-eML">
+                        <rect key="frame" x="72" y="22" width="311" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="qoD-f1-2Gf" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="3hM-Gv-SyD"/>
+                    <constraint firstItem="qoD-f1-2Gf" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="3uw-h4-38k"/>
+                    <constraint firstItem="nSb-uT-eML" firstAttribute="leading" secondItem="qoD-f1-2Gf" secondAttribute="trailing" constant="22" id="XT2-eF-hmv"/>
+                    <constraint firstItem="nSb-uT-eML" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="bq5-qk-q1R"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="nSb-uT-eML" secondAttribute="trailing" constant="20" id="vKU-qL-4SC"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="iv_department_header" destination="qoD-f1-2Gf" id="xbV-Qh-ZCP"/>
+                <outlet property="lab_department_name" destination="nSb-uT-eML" id="zHB-Ds-2wL"/>
+            </connections>
+            <point key="canvasLocation" x="85.5" y="65"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="timg" width="211" height="211"/>
+    </resources>
+</document>

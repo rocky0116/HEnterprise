@@ -14,6 +14,51 @@
 		18032D8020EA1A6E0058C8E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18032D7E20EA1A6E0058C8E0 /* LaunchScreen.storyboard */; };
 		18032D8B20EA1A6E0058C8E0 /* HEnterpriseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18032D8A20EA1A6E0058C8E0 /* HEnterpriseTests.swift */; };
 		18032D9620EA1A6E0058C8E0 /* HEnterpriseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18032D9520EA1A6E0058C8E0 /* HEnterpriseUITests.swift */; };
+		181172FC213E6CC9002C9BC1 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181172FB213E6CC9002C9BC1 /* Common.swift */; };
+		18137F612100846B00A02A25 /* UIColor+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 18137F482100846B00A02A25 /* UIColor+CZAddition.m */; };
+		18137F622100846B00A02A25 /* UIView+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 18137F492100846B00A02A25 /* UIView+CZAddition.m */; };
+		18137F632100846B00A02A25 /* UIScreen+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 18137F4C2100846B00A02A25 /* UIScreen+CZAddition.m */; };
+		18137F642100846B00A02A25 /* UILabel+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 18137F4E2100846B00A02A25 /* UILabel+CZAddition.m */; };
+		18137F652100846B00A02A25 /* NSString+CZBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 18137F502100846B00A02A25 /* NSString+CZBase64.m */; };
+		18137F662100846B00A02A25 /* NSString+CZPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 18137F512100846B00A02A25 /* NSString+CZPath.m */; };
+		18137F672100846B00A02A25 /* UIButton+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 18137F542100846B00A02A25 /* UIButton+CZAddition.m */; };
+		18137F682100846B00A02A25 /* NSObject+CZRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 18137F572100846B00A02A25 /* NSObject+CZRuntime.m */; };
+		18137F692100846B00A02A25 /* UIViewController+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 18137F5A2100846B00A02A25 /* UIViewController+CZAddition.m */; };
+		18137F6A2100846B00A02A25 /* NSString+CZHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 18137F5B2100846B00A02A25 /* NSString+CZHash.m */; };
+		18137F6B2100846B00A02A25 /* NSAttributedString+CZAdditon.m in Sources */ = {isa = PBXBuildFile; fileRef = 18137F5E2100846B00A02A25 /* NSAttributedString+CZAdditon.m */; };
+		18137F6C2100846B00A02A25 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 18137F5F2100846B00A02A25 /* NSArray+Log.m */; };
+		18295228213E27C100C71E87 /* HEZlxyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18295227213E27C100C71E87 /* HEZlxyController.swift */; };
+		1829522B213E35E700C71E87 /* HEGkzlCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18295229213E35E700C71E87 /* HEGkzlCell.swift */; };
+		1829522C213E35E700C71E87 /* HEGkzlCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1829522A213E35E700C71E87 /* HEGkzlCell.xib */; };
+		1842DA2F212D342D0052B8EB /* HEMyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1842DA2D212D342D0052B8EB /* HEMyCell.swift */; };
+		1842DA30212D342D0052B8EB /* HEMyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1842DA2E212D342D0052B8EB /* HEMyCell.xib */; };
+		1842DA34212D373D0052B8EB /* HEMyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1842DA33212D373D0052B8EB /* HEMyController.swift */; };
+		1842DA36212D3D210052B8EB /* HEBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1842DA35212D3D210052B8EB /* HEBaseController.swift */; };
+		1842DA38212D3F200052B8EB /* HEHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1842DA37212D3F200052B8EB /* HEHomeController.swift */; };
+		18BCA4BB212F9EA2009EFC38 /* HEMyMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BCA4BA212F9EA2009EFC38 /* HEMyMessageController.swift */; };
+		18BCA4BD212F9EBB009EFC38 /* HEWarnMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BCA4BC212F9EBB009EFC38 /* HEWarnMessageController.swift */; };
+		18BCA4BF212F9ED1009EFC38 /* HEMyFavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BCA4BE212F9ED1009EFC38 /* HEMyFavController.swift */; };
+		18BCA4C1212F9EE0009EFC38 /* HEIdeaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BCA4C0212F9EE0009EFC38 /* HEIdeaController.swift */; };
+		18BCA4C3212F9EEF009EFC38 /* HEAboutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BCA4C2212F9EEF009EFC38 /* HEAboutController.swift */; };
+		18BCA4C8213534E9009EFC38 /* HEMyMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BCA4C6213534E9009EFC38 /* HEMyMessageCell.swift */; };
+		18BCA4C9213534E9009EFC38 /* HEMyMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BCA4C7213534E9009EFC38 /* HEMyMessageCell.xib */; };
+		18BCA4CC21354157009EFC38 /* HEWarnMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BCA4CA21354157009EFC38 /* HEWarnMessageCell.swift */; };
+		18BCA4CD21354157009EFC38 /* HEWarnMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BCA4CB21354157009EFC38 /* HEWarnMessageCell.xib */; };
+		18BCA4D021354168009EFC38 /* HEMyFavCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BCA4CE21354168009EFC38 /* HEMyFavCell.swift */; };
+		18BCA4D121354168009EFC38 /* HEMyFavCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BCA4CF21354168009EFC38 /* HEMyFavCell.xib */; };
+		18BCA4D321362E9B009EFC38 /* HEAddressBookController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BCA4D221362E9B009EFC38 /* HEAddressBookController.swift */; };
+		18BCA4D521362ED3009EFC38 /* HEDepartmentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BCA4D421362ED3009EFC38 /* HEDepartmentController.swift */; };
+		18BCA4D721362F11009EFC38 /* HENeedSquareController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BCA4D621362F11009EFC38 /* HENeedSquareController.swift */; };
+		18BCA4D921362F72009EFC38 /* HEForumController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BCA4D821362F72009EFC38 /* HEForumController.swift */; };
+		18BCA4DB21362F8F009EFC38 /* HEPkDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BCA4DA21362F8F009EFC38 /* HEPkDetailController.swift */; };
+		18BCA4DD21362F9C009EFC38 /* HEYzDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BCA4DC21362F9C009EFC38 /* HEYzDetailController.swift */; };
+		18BCA4E021363865009EFC38 /* HEDepartmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BCA4DE21363865009EFC38 /* HEDepartmentCell.swift */; };
+		18BCA4E121363865009EFC38 /* HEDepartmentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BCA4DF21363865009EFC38 /* HEDepartmentCell.xib */; };
+		18BCA4E42136387F009EFC38 /* HEAddressBookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BCA4E22136387F009EFC38 /* HEAddressBookCell.swift */; };
+		18BCA4E52136387F009EFC38 /* HEAddressBookCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BCA4E32136387F009EFC38 /* HEAddressBookCell.xib */; };
+		18BCA4E82136518C009EFC38 /* HEHomeYzCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BCA4E62136518C009EFC38 /* HEHomeYzCell.swift */; };
+		18BCA4E92136518C009EFC38 /* HEHomeYzCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BCA4E72136518C009EFC38 /* HEHomeYzCell.xib */; };
+		5A5486B89E5579E6BB56BAFC /* Pods_HEnterprise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B02B3EDEECFC0C63A438FC8F /* Pods_HEnterprise.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +92,67 @@
 		18032D9120EA1A6E0058C8E0 /* HEnterpriseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HEnterpriseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18032D9520EA1A6E0058C8E0 /* HEnterpriseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HEnterpriseUITests.swift; sourceTree = "<group>"; };
 		18032D9720EA1A6E0058C8E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181172FB213E6CC9002C9BC1 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		18137F482100846B00A02A25 /* UIColor+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CZAddition.m"; sourceTree = "<group>"; };
+		18137F492100846B00A02A25 /* UIView+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CZAddition.m"; sourceTree = "<group>"; };
+		18137F4A2100846B00A02A25 /* UIButton+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CZAddition.h"; sourceTree = "<group>"; };
+		18137F4B2100846B00A02A25 /* NSString+CZHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CZHash.h"; sourceTree = "<group>"; };
+		18137F4C2100846B00A02A25 /* UIScreen+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+CZAddition.m"; sourceTree = "<group>"; };
+		18137F4D2100846B00A02A25 /* UIViewController+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CZAddition.h"; sourceTree = "<group>"; };
+		18137F4E2100846B00A02A25 /* UILabel+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+CZAddition.m"; sourceTree = "<group>"; };
+		18137F4F2100846B00A02A25 /* NSObject+CZRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CZRuntime.h"; sourceTree = "<group>"; };
+		18137F502100846B00A02A25 /* NSString+CZBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CZBase64.m"; sourceTree = "<group>"; };
+		18137F512100846B00A02A25 /* NSString+CZPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CZPath.m"; sourceTree = "<group>"; };
+		18137F522100846B00A02A25 /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		18137F532100846B00A02A25 /* NSAttributedString+CZAdditon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+CZAdditon.h"; sourceTree = "<group>"; };
+		18137F542100846B00A02A25 /* UIButton+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CZAddition.m"; sourceTree = "<group>"; };
+		18137F552100846B00A02A25 /* UIView+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CZAddition.h"; sourceTree = "<group>"; };
+		18137F562100846B00A02A25 /* UIColor+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CZAddition.h"; sourceTree = "<group>"; };
+		18137F572100846B00A02A25 /* NSObject+CZRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CZRuntime.m"; sourceTree = "<group>"; };
+		18137F582100846B00A02A25 /* UILabel+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+CZAddition.h"; sourceTree = "<group>"; };
+		18137F592100846B00A02A25 /* UIScreen+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+CZAddition.h"; sourceTree = "<group>"; };
+		18137F5A2100846B00A02A25 /* UIViewController+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CZAddition.m"; sourceTree = "<group>"; };
+		18137F5B2100846B00A02A25 /* NSString+CZHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CZHash.m"; sourceTree = "<group>"; };
+		18137F5C2100846B00A02A25 /* NSString+CZBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CZBase64.h"; sourceTree = "<group>"; };
+		18137F5D2100846B00A02A25 /* CZAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZAdditions.h; sourceTree = "<group>"; };
+		18137F5E2100846B00A02A25 /* NSAttributedString+CZAdditon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+CZAdditon.m"; sourceTree = "<group>"; };
+		18137F5F2100846B00A02A25 /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
+		18137F602100846B00A02A25 /* NSString+CZPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CZPath.h"; sourceTree = "<group>"; };
+		18137F6D2100862000A02A25 /* HEnterprise-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HEnterprise-Bridging-Header.h"; sourceTree = "<group>"; };
+		18295227213E27C100C71E87 /* HEZlxyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HEZlxyController.swift; sourceTree = "<group>"; };
+		18295229213E35E700C71E87 /* HEGkzlCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HEGkzlCell.swift; sourceTree = "<group>"; };
+		1829522A213E35E700C71E87 /* HEGkzlCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HEGkzlCell.xib; sourceTree = "<group>"; };
+		1842DA2D212D342D0052B8EB /* HEMyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HEMyCell.swift; sourceTree = "<group>"; };
+		1842DA2E212D342D0052B8EB /* HEMyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HEMyCell.xib; sourceTree = "<group>"; };
+		1842DA33212D373D0052B8EB /* HEMyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HEMyController.swift; sourceTree = "<group>"; };
+		1842DA35212D3D210052B8EB /* HEBaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HEBaseController.swift; sourceTree = "<group>"; };
+		1842DA37212D3F200052B8EB /* HEHomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HEHomeController.swift; sourceTree = "<group>"; };
+		18BCA4BA212F9EA2009EFC38 /* HEMyMessageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HEMyMessageController.swift; sourceTree = "<group>"; };
+		18BCA4BC212F9EBB009EFC38 /* HEWarnMessageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HEWarnMessageController.swift; sourceTree = "<group>"; };
+		18BCA4BE212F9ED1009EFC38 /* HEMyFavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HEMyFavController.swift; sourceTree = "<group>"; };
+		18BCA4C0212F9EE0009EFC38 /* HEIdeaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HEIdeaController.swift; sourceTree = "<group>"; };
+		18BCA4C2212F9EEF009EFC38 /* HEAboutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HEAboutController.swift; sourceTree = "<group>"; };
+		18BCA4C6213534E9009EFC38 /* HEMyMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HEMyMessageCell.swift; sourceTree = "<group>"; };
+		18BCA4C7213534E9009EFC38 /* HEMyMessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HEMyMessageCell.xib; sourceTree = "<group>"; };
+		18BCA4CA21354157009EFC38 /* HEWarnMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HEWarnMessageCell.swift; sourceTree = "<group>"; };
+		18BCA4CB21354157009EFC38 /* HEWarnMessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HEWarnMessageCell.xib; sourceTree = "<group>"; };
+		18BCA4CE21354168009EFC38 /* HEMyFavCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HEMyFavCell.swift; sourceTree = "<group>"; };
+		18BCA4CF21354168009EFC38 /* HEMyFavCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HEMyFavCell.xib; sourceTree = "<group>"; };
+		18BCA4D221362E9B009EFC38 /* HEAddressBookController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HEAddressBookController.swift; sourceTree = "<group>"; };
+		18BCA4D421362ED3009EFC38 /* HEDepartmentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HEDepartmentController.swift; sourceTree = "<group>"; };
+		18BCA4D621362F11009EFC38 /* HENeedSquareController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HENeedSquareController.swift; sourceTree = "<group>"; };
+		18BCA4D821362F72009EFC38 /* HEForumController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HEForumController.swift; sourceTree = "<group>"; };
+		18BCA4DA21362F8F009EFC38 /* HEPkDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HEPkDetailController.swift; sourceTree = "<group>"; };
+		18BCA4DC21362F9C009EFC38 /* HEYzDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HEYzDetailController.swift; sourceTree = "<group>"; };
+		18BCA4DE21363865009EFC38 /* HEDepartmentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HEDepartmentCell.swift; sourceTree = "<group>"; };
+		18BCA4DF21363865009EFC38 /* HEDepartmentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HEDepartmentCell.xib; sourceTree = "<group>"; };
+		18BCA4E22136387F009EFC38 /* HEAddressBookCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HEAddressBookCell.swift; sourceTree = "<group>"; };
+		18BCA4E32136387F009EFC38 /* HEAddressBookCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HEAddressBookCell.xib; sourceTree = "<group>"; };
+		18BCA4E62136518C009EFC38 /* HEHomeYzCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HEHomeYzCell.swift; sourceTree = "<group>"; };
+		18BCA4E72136518C009EFC38 /* HEHomeYzCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HEHomeYzCell.xib; sourceTree = "<group>"; };
+		3CB8B39D0A34E3E03A82E21D /* Pods-HEnterprise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HEnterprise.release.xcconfig"; path = "Pods/Target Support Files/Pods-HEnterprise/Pods-HEnterprise.release.xcconfig"; sourceTree = "<group>"; };
+		93CEADE7984415D8EBB72B69 /* Pods-HEnterprise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HEnterprise.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HEnterprise/Pods-HEnterprise.debug.xcconfig"; sourceTree = "<group>"; };
+		B02B3EDEECFC0C63A438FC8F /* Pods_HEnterprise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HEnterprise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +160,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A5486B89E5579E6BB56BAFC /* Pods_HEnterprise.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +188,8 @@
 				18032D8920EA1A6E0058C8E0 /* HEnterpriseTests */,
 				18032D9420EA1A6E0058C8E0 /* HEnterpriseUITests */,
 				18032D7320EA1A6C0058C8E0 /* Products */,
+				C98792851F319F2D33F690F5 /* Pods */,
+				59FBC9C6945DFEE874394E2B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +206,18 @@
 		18032D7420EA1A6C0058C8E0 /* HEnterprise */ = {
 			isa = PBXGroup;
 			children = (
+				18137F462100846B00A02A25 /* tools */,
+				18137F452100839900A02A25 /* base */,
+				18137F3F2100838000A02A25 /* classes */,
+				18137F432100838000A02A25 /* external */,
+				18137F442100838000A02A25 /* images */,
 				18032D7520EA1A6C0058C8E0 /* AppDelegate.swift */,
 				18032D7720EA1A6C0058C8E0 /* ViewController.swift */,
 				18032D7920EA1A6C0058C8E0 /* Main.storyboard */,
 				18032D7C20EA1A6E0058C8E0 /* Assets.xcassets */,
 				18032D7E20EA1A6E0058C8E0 /* LaunchScreen.storyboard */,
 				18032D8120EA1A6E0058C8E0 /* Info.plist */,
+				18137F6D2100862000A02A25 /* HEnterprise-Bridging-Header.h */,
 			);
 			path = HEnterprise;
 			sourceTree = "<group>";
@@ -125,6 +240,147 @@
 			path = HEnterpriseUITests;
 			sourceTree = "<group>";
 		};
+		18137F3F2100838000A02A25 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				18137F402100838000A02A25 /* controller */,
+				18137F412100838000A02A25 /* model */,
+				18137F422100838000A02A25 /* view */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		18137F402100838000A02A25 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				1842DA33212D373D0052B8EB /* HEMyController.swift */,
+				1842DA37212D3F200052B8EB /* HEHomeController.swift */,
+				18BCA4BA212F9EA2009EFC38 /* HEMyMessageController.swift */,
+				18BCA4BC212F9EBB009EFC38 /* HEWarnMessageController.swift */,
+				18BCA4BE212F9ED1009EFC38 /* HEMyFavController.swift */,
+				18BCA4C0212F9EE0009EFC38 /* HEIdeaController.swift */,
+				18BCA4C2212F9EEF009EFC38 /* HEAboutController.swift */,
+				18BCA4D221362E9B009EFC38 /* HEAddressBookController.swift */,
+				18BCA4D421362ED3009EFC38 /* HEDepartmentController.swift */,
+				18BCA4D621362F11009EFC38 /* HENeedSquareController.swift */,
+				18BCA4D821362F72009EFC38 /* HEForumController.swift */,
+				18BCA4DA21362F8F009EFC38 /* HEPkDetailController.swift */,
+				18BCA4DC21362F9C009EFC38 /* HEYzDetailController.swift */,
+				18295227213E27C100C71E87 /* HEZlxyController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		18137F412100838000A02A25 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		18137F422100838000A02A25 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				1842DA2D212D342D0052B8EB /* HEMyCell.swift */,
+				1842DA2E212D342D0052B8EB /* HEMyCell.xib */,
+				18BCA4C6213534E9009EFC38 /* HEMyMessageCell.swift */,
+				18BCA4C7213534E9009EFC38 /* HEMyMessageCell.xib */,
+				18BCA4CA21354157009EFC38 /* HEWarnMessageCell.swift */,
+				18BCA4CB21354157009EFC38 /* HEWarnMessageCell.xib */,
+				18BCA4CE21354168009EFC38 /* HEMyFavCell.swift */,
+				18BCA4CF21354168009EFC38 /* HEMyFavCell.xib */,
+				18BCA4DE21363865009EFC38 /* HEDepartmentCell.swift */,
+				18BCA4DF21363865009EFC38 /* HEDepartmentCell.xib */,
+				18BCA4E22136387F009EFC38 /* HEAddressBookCell.swift */,
+				18BCA4E32136387F009EFC38 /* HEAddressBookCell.xib */,
+				18BCA4E62136518C009EFC38 /* HEHomeYzCell.swift */,
+				18BCA4E72136518C009EFC38 /* HEHomeYzCell.xib */,
+				18295229213E35E700C71E87 /* HEGkzlCell.swift */,
+				1829522A213E35E700C71E87 /* HEGkzlCell.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		18137F432100838000A02A25 /* external */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = external;
+			sourceTree = "<group>";
+		};
+		18137F442100838000A02A25 /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		18137F452100839900A02A25 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				1842DA35212D3D210052B8EB /* HEBaseController.swift */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		18137F462100846B00A02A25 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				18137F472100846B00A02A25 /* Additions */,
+				181172FB213E6CC9002C9BC1 /* Common.swift */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		18137F472100846B00A02A25 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				18137F482100846B00A02A25 /* UIColor+CZAddition.m */,
+				18137F492100846B00A02A25 /* UIView+CZAddition.m */,
+				18137F4A2100846B00A02A25 /* UIButton+CZAddition.h */,
+				18137F4B2100846B00A02A25 /* NSString+CZHash.h */,
+				18137F4C2100846B00A02A25 /* UIScreen+CZAddition.m */,
+				18137F4D2100846B00A02A25 /* UIViewController+CZAddition.h */,
+				18137F4E2100846B00A02A25 /* UILabel+CZAddition.m */,
+				18137F4F2100846B00A02A25 /* NSObject+CZRuntime.h */,
+				18137F502100846B00A02A25 /* NSString+CZBase64.m */,
+				18137F512100846B00A02A25 /* NSString+CZPath.m */,
+				18137F522100846B00A02A25 /* NSArray+Log.h */,
+				18137F532100846B00A02A25 /* NSAttributedString+CZAdditon.h */,
+				18137F542100846B00A02A25 /* UIButton+CZAddition.m */,
+				18137F552100846B00A02A25 /* UIView+CZAddition.h */,
+				18137F562100846B00A02A25 /* UIColor+CZAddition.h */,
+				18137F572100846B00A02A25 /* NSObject+CZRuntime.m */,
+				18137F582100846B00A02A25 /* UILabel+CZAddition.h */,
+				18137F592100846B00A02A25 /* UIScreen+CZAddition.h */,
+				18137F5A2100846B00A02A25 /* UIViewController+CZAddition.m */,
+				18137F5B2100846B00A02A25 /* NSString+CZHash.m */,
+				18137F5C2100846B00A02A25 /* NSString+CZBase64.h */,
+				18137F5D2100846B00A02A25 /* CZAdditions.h */,
+				18137F5E2100846B00A02A25 /* NSAttributedString+CZAdditon.m */,
+				18137F5F2100846B00A02A25 /* NSArray+Log.m */,
+				18137F602100846B00A02A25 /* NSString+CZPath.h */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		59FBC9C6945DFEE874394E2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B02B3EDEECFC0C63A438FC8F /* Pods_HEnterprise.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C98792851F319F2D33F690F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93CEADE7984415D8EBB72B69 /* Pods-HEnterprise.debug.xcconfig */,
+				3CB8B39D0A34E3E03A82E21D /* Pods-HEnterprise.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +388,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18032D9A20EA1A6E0058C8E0 /* Build configuration list for PBXNativeTarget "HEnterprise" */;
 			buildPhases = (
+				3FAA5E076450DF6C77B7934B /* [CP] Check Pods Manifest.lock */,
 				18032D6E20EA1A6C0058C8E0 /* Sources */,
 				18032D6F20EA1A6C0058C8E0 /* Frameworks */,
 				18032D7020EA1A6C0058C8E0 /* Resources */,
+				18E06B0EF0230CF49E286E49 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -187,6 +445,7 @@
 		18032D6A20EA1A6C0058C8E0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HE;
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = wz;
@@ -229,8 +488,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1829522C213E35E700C71E87 /* HEGkzlCell.xib in Resources */,
+				1842DA30212D342D0052B8EB /* HEMyCell.xib in Resources */,
 				18032D8020EA1A6E0058C8E0 /* LaunchScreen.storyboard in Resources */,
 				18032D7D20EA1A6E0058C8E0 /* Assets.xcassets in Resources */,
+				18BCA4C9213534E9009EFC38 /* HEMyMessageCell.xib in Resources */,
+				18BCA4E92136518C009EFC38 /* HEHomeYzCell.xib in Resources */,
+				18BCA4E52136387F009EFC38 /* HEAddressBookCell.xib in Resources */,
+				18BCA4CD21354157009EFC38 /* HEWarnMessageCell.xib in Resources */,
+				18BCA4D121354168009EFC38 /* HEMyFavCell.xib in Resources */,
+				18BCA4E121363865009EFC38 /* HEDepartmentCell.xib in Resources */,
 				18032D7B20EA1A6C0058C8E0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,13 +518,100 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		18E06B0EF0230CF49E286E49 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HEnterprise/Pods-HEnterprise-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftProgressHUD/SwiftProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HEnterprise/Pods-HEnterprise-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FAA5E076450DF6C77B7934B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HEnterprise-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18032D6E20EA1A6C0058C8E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18BCA4C3212F9EEF009EFC38 /* HEAboutController.swift in Sources */,
+				18137F692100846B00A02A25 /* UIViewController+CZAddition.m in Sources */,
+				18137F6C2100846B00A02A25 /* NSArray+Log.m in Sources */,
+				18BCA4BD212F9EBB009EFC38 /* HEWarnMessageController.swift in Sources */,
+				18137F632100846B00A02A25 /* UIScreen+CZAddition.m in Sources */,
+				1842DA38212D3F200052B8EB /* HEHomeController.swift in Sources */,
+				18BCA4BF212F9ED1009EFC38 /* HEMyFavController.swift in Sources */,
+				1829522B213E35E700C71E87 /* HEGkzlCell.swift in Sources */,
+				18137F662100846B00A02A25 /* NSString+CZPath.m in Sources */,
 				18032D7820EA1A6C0058C8E0 /* ViewController.swift in Sources */,
+				18BCA4E021363865009EFC38 /* HEDepartmentCell.swift in Sources */,
+				18BCA4D721362F11009EFC38 /* HENeedSquareController.swift in Sources */,
+				1842DA36212D3D210052B8EB /* HEBaseController.swift in Sources */,
+				18BCA4C1212F9EE0009EFC38 /* HEIdeaController.swift in Sources */,
+				18295228213E27C100C71E87 /* HEZlxyController.swift in Sources */,
+				18BCA4DD21362F9C009EFC38 /* HEYzDetailController.swift in Sources */,
+				18BCA4D921362F72009EFC38 /* HEForumController.swift in Sources */,
+				18BCA4D321362E9B009EFC38 /* HEAddressBookController.swift in Sources */,
+				18BCA4E82136518C009EFC38 /* HEHomeYzCell.swift in Sources */,
+				18BCA4D521362ED3009EFC38 /* HEDepartmentController.swift in Sources */,
+				18137F6A2100846B00A02A25 /* NSString+CZHash.m in Sources */,
+				1842DA34212D373D0052B8EB /* HEMyController.swift in Sources */,
+				18137F682100846B00A02A25 /* NSObject+CZRuntime.m in Sources */,
 				18032D7620EA1A6C0058C8E0 /* AppDelegate.swift in Sources */,
+				18137F672100846B00A02A25 /* UIButton+CZAddition.m in Sources */,
+				18BCA4E42136387F009EFC38 /* HEAddressBookCell.swift in Sources */,
+				18BCA4C8213534E9009EFC38 /* HEMyMessageCell.swift in Sources */,
+				18137F652100846B00A02A25 /* NSString+CZBase64.m in Sources */,
+				18BCA4D021354168009EFC38 /* HEMyFavCell.swift in Sources */,
+				18BCA4CC21354157009EFC38 /* HEWarnMessageCell.swift in Sources */,
+				18BCA4BB212F9EA2009EFC38 /* HEMyMessageController.swift in Sources */,
+				18137F642100846B00A02A25 /* UILabel+CZAddition.m in Sources */,
+				18137F6B2100846B00A02A25 /* NSAttributedString+CZAdditon.m in Sources */,
+				18137F612100846B00A02A25 /* UIColor+CZAddition.m in Sources */,
+				181172FC213E6CC9002C9BC1 /* Common.swift in Sources */,
+				1842DA2F212D342D0052B8EB /* HEMyCell.swift in Sources */,
+				18BCA4DB21362F8F009EFC38 /* HEPkDetailController.swift in Sources */,
+				18137F622100846B00A02A25 /* UIView+CZAddition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +782,7 @@
 		};
 		18032D9B20EA1A6E0058C8E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93CEADE7984415D8EBB72B69 /* Pods-HEnterprise.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +794,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wz.HEnterprise;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HEnterprise/HEnterprise-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -446,6 +802,7 @@
 		};
 		18032D9C20EA1A6E0058C8E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CB8B39D0A34E3E03A82E21D /* Pods-HEnterprise.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -457,6 +814,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wz.HEnterprise;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HEnterprise/HEnterprise-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

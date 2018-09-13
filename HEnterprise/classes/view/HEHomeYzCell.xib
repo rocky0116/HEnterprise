@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="HEHomeYzCell" customModule="HEnterprise" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="201" height="188"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="201" height="188"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SO2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sff-JV-7lj">
+                        <rect key="frame" x="83.5" y="5" width="34" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.59607843140000005" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="污染物" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HfT-oN-7xO">
+                        <rect key="frame" x="77.5" y="31" width="46" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.59607843140000005" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="排放状态：超标" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7uc-ZT-fcG">
+                        <rect key="frame" x="5" y="59" width="108" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="数据监测：100mg/m3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HB0-su-Pfe">
+                        <rect key="frame" x="5" y="87" width="151" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="数据折算值：100mg/m3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NYD-LF-MC1">
+                        <rect key="frame" x="5" y="115" width="166" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="排放指标：100mg/m3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Byv-2y-Wwt">
+                        <rect key="frame" x="5" y="143" width="151" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="HB0-su-Pfe" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="1IP-JH-nMR"/>
+                <constraint firstItem="NYD-LF-MC1" firstAttribute="top" secondItem="HB0-su-Pfe" secondAttribute="bottom" constant="10" id="1dZ-nz-4aN"/>
+                <constraint firstItem="sff-JV-7lj" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="2fV-ZE-pC5"/>
+                <constraint firstItem="Byv-2y-Wwt" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="CMO-5S-yJD"/>
+                <constraint firstItem="sff-JV-7lj" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="MIq-YR-0Ir"/>
+                <constraint firstItem="HfT-oN-7xO" firstAttribute="top" secondItem="sff-JV-7lj" secondAttribute="bottom" constant="5" id="WGb-mW-nmg"/>
+                <constraint firstItem="HB0-su-Pfe" firstAttribute="top" secondItem="7uc-ZT-fcG" secondAttribute="bottom" constant="10" id="hR2-li-Xck"/>
+                <constraint firstItem="HfT-oN-7xO" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="iu1-Pw-5Eq"/>
+                <constraint firstItem="NYD-LF-MC1" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="jFz-aK-EcT"/>
+                <constraint firstItem="Byv-2y-Wwt" firstAttribute="top" secondItem="NYD-LF-MC1" secondAttribute="bottom" constant="10" id="pV5-iD-K91"/>
+                <constraint firstItem="7uc-ZT-fcG" firstAttribute="top" secondItem="HfT-oN-7xO" secondAttribute="bottom" constant="10" id="tPL-Ga-cEw"/>
+                <constraint firstItem="7uc-ZT-fcG" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="w8h-6b-Jbd"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="201" height="188"/>
+            <connections>
+                <outlet property="lab_status" destination="7uc-ZT-fcG" id="fIw-WE-Tkn"/>
+                <outlet property="lab_wrw_name" destination="sff-JV-7lj" id="sFk-6c-3me"/>
+                <outlet property="lab_wrw_value" destination="HB0-su-Pfe" id="OWE-2q-AVK"/>
+                <outlet property="lab_wrw_zhe_value" destination="NYD-LF-MC1" id="IcT-6w-TGG"/>
+                <outlet property="lab_zhibiao_value" destination="Byv-2y-Wwt" id="dt7-OV-oAV"/>
+            </connections>
+            <point key="canvasLocation" x="109.5" y="123"/>
+        </collectionViewCell>
+    </objects>
+</document>
